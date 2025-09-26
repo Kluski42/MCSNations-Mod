@@ -22,7 +22,7 @@
 			"net.wetnoodle.mcsnations.MCSNationsClient"
 		],
 		"fabric-datagen": [
-			"net.wetnoodle.mcsnations.MCSNationsDataGenerator"
+          "net.wetnoodle.mcsnations.datagen.MCSNationsDataGenerator"
 		]
 	},
 	"mixins": [
