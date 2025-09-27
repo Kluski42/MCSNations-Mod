@@ -1,3 +1,6 @@
 {
-"trim_material.mcs_nations.echo": "Echo Material"
+  "trim_material.mcs_nations.echo": "Echo Material",
+  "trim_material.mcs_nations.scrap": "Scrap Material",
+  "trim_material.mcs_nations.purpur": "Purpur Material",
+  "trim_material.mcs_nations.prismarine": "Prismarine Material"
 }

@@ -10,7 +10,10 @@
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
-		"echo": "mcs_nations:trims/color_palettes/echo"
+        "echo": "mcs_nations:trims/color_palettes/echo",
+        "scrap": "mcs_nations:trims/color_palettes/scrap",
+        "purpur": "mcs_nations:trims/color_palettes/purpur",
+        "prismarine": "mcs_nations:trims/color_palettes/prismarine"
       }
     }
   ]
