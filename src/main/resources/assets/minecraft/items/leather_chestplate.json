@@ -157,6 +157,45 @@
           ]
         },
         "when": "mcs_nations:echo"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_nations:item/leather_chestplate_scrap_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "mcs_nations:scrap"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_nations:item/leather_chestplate_purpur_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "mcs_nations:purpur"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_nations:item/leather_chestplate_prismarine_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "mcs_nations:prismarine"
       }
     ],
     "fallback": {

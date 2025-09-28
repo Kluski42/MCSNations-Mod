@@ -18,6 +18,15 @@ public class MCSNDefaultItemComponents {
             context.modify(Items.ECHO_SHARD, builder -> {
                 builder.set(DataComponents.PROVIDES_TRIM_MATERIAL, new ProvidesTrimMaterial(MCSNTrimMaterials.ECHO));
             });
+            context.modify(Items.NETHERITE_SCRAP, builder -> {
+                builder.set(DataComponents.PROVIDES_TRIM_MATERIAL, new ProvidesTrimMaterial(MCSNTrimMaterials.SCRAP));
+            });
+            context.modify(Items.POPPED_CHORUS_FRUIT, builder -> {
+                builder.set(DataComponents.PROVIDES_TRIM_MATERIAL, new ProvidesTrimMaterial(MCSNTrimMaterials.PURPUR));
+            });
+            context.modify(Items.PRISMARINE_CRYSTALS, builder -> {
+                builder.set(DataComponents.PROVIDES_TRIM_MATERIAL, new ProvidesTrimMaterial(MCSNTrimMaterials.PRISMARINE));
+            });
         });
     }
 }

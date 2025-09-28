@@ -85,6 +85,27 @@
           "model": "mcs_nations:item/diamond_chestplate_echo_trim"
         },
         "when": "mcs_nations:echo"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_nations:item/diamond_chestplate_scrap_trim"
+        },
+        "when": "mcs_nations:scrap"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_nations:item/diamond_chestplate_purpur_trim"
+        },
+        "when": "mcs_nations:purpur"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_nations:item/diamond_chestplate_prismarine_trim"
+        },
+        "when": "mcs_nations:prismarine"
       }
     ],
     "fallback": {

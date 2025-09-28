@@ -17,5 +17,8 @@ public class MCSNItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         valueLookupBuilder(TRIM_MATERIALS).add(Items.ECHO_SHARD);
+        valueLookupBuilder(TRIM_MATERIALS).add(Items.NETHERITE_SCRAP);
+        valueLookupBuilder(TRIM_MATERIALS).add(Items.POPPED_CHORUS_FRUIT);
+        valueLookupBuilder(TRIM_MATERIALS).add(Items.PRISMARINE_CRYSTALS);
     }
 }

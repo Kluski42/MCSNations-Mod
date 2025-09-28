@@ -18,10 +18,16 @@ public class MCSNTrimMaterials {
     public static final List<ResourceKey<TrimMaterial>> TRIM_MATERIALS = new ArrayList<>();
 
     public static final ResourceKey<TrimMaterial> ECHO = register("echo");
+    public static final ResourceKey<TrimMaterial> SCRAP = register("scrap");
+    public static final ResourceKey<TrimMaterial> PURPUR = register("purpur");
+    public static final ResourceKey<TrimMaterial> PRISMARINE = register("prismarine");
 
     public static void bootstrap(BootstrapContext<TrimMaterial> context) {
         MCSNConstants.logWithModId("Initializing trim materials for ");
         register(context, ECHO, Style.EMPTY.withColor(0x1C99A3));
+        register(context, SCRAP, Style.EMPTY.withColor(0x7e6059));
+        register(context, PURPUR, Style.EMPTY.withColor(0xB58BB5));
+        register(context, PRISMARINE, Style.EMPTY.withColor(0x668E8A));
     }
 
     private static void register(BootstrapContext<TrimMaterial> context, ResourceKey<TrimMaterial> key, Style style) {

@@ -1,5 +1,8 @@
 {
   "values": [
-    "minecraft:echo_shard"
+    "minecraft:echo_shard",
+    "minecraft:netherite_scrap",
+    "minecraft:popped_chorus_fruit",
+    "minecraft:prismarine_crystals"
   ]
 }
