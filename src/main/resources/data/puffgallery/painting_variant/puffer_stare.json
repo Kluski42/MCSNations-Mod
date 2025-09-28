@@ -1,0 +1,13 @@
+{
+  "asset_id": "puffgallery:puffer_stare",
+  "author": {
+    "color": "gray",
+    "translate": "painting.puffgallery.puffer_stare.author"
+  },
+  "title": {
+    "color": "yellow",
+    "translate": "painting.puffgallery.puffer_stare.title"
+  },
+  "height": 3,
+  "width": 3
+}

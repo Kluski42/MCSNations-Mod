@@ -1,44 +1,47 @@
 {
-	"schemaVersion": 1,
-	"id": "mcs-nations",
-	"version": "${version}",
-	"name": "MCS Nations",
-	"description": "A serverside Fabric mod for MCS Nations.",
-	"authors": [
-		"wet.noodle"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/mcs_nations/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.wetnoodle.mcsnations.MCSNations"
-		],
-		"client": [
-			"net.wetnoodle.mcsnations.MCSNationsClient"
-		],
-		"fabric-datagen": [
-          "net.wetnoodle.mcsnations.datagen.MCSNationsDataGenerator"
-		]
-	},
-	"mixins": [
-      "mcs_nations.mixins.json",
-		{
-			"config": "mcs-nations.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.8",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "mcs-nations",
+  "version": "${version}",
+  "name": "MCS Nations",
+  "description": "A serverside Fabric mod for MCS Nations.",
+  "authors": [
+    "wet.noodle"
+  ],
+  "contributors": [
+    "enr1c0",
+    "dexterity0"
+  ],
+  "contact": {
+    "sources": "https://github.com/Kluski42/MCSNations-Mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/mcs_nations/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.wetnoodle.mcsnations.MCSNations"
+    ],
+    "client": [
+      "net.wetnoodle.mcsnations.MCSNationsClient"
+    ],
+    "fabric-datagen": [
+      "net.wetnoodle.mcsnations.datagen.MCSNationsDataGenerator"
+    ]
+  },
+  "mixins": [
+    "mcs_nations.mixins.json",
+    {
+      "config": "mcs-nations.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }
