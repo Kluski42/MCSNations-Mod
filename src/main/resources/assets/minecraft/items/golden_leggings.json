@@ -82,28 +82,28 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "mcs_nations:item/gold_leggings_echo_trim"
+          "model": "mcs_nations:item/golden_leggings_echo_trim"
         },
         "when": "mcs_nations:echo"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "mcs_nations:item/gold_leggings_scrap_trim"
+          "model": "mcs_nations:item/golden_leggings_scrap_trim"
         },
         "when": "mcs_nations:scrap"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "mcs_nations:item/gold_leggings_purpur_trim"
+          "model": "mcs_nations:item/golden_leggings_purpur_trim"
         },
         "when": "mcs_nations:purpur"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "mcs_nations:item/gold_leggings_prismarine_trim"
+          "model": "mcs_nations:item/golden_leggings_prismarine_trim"
         },
         "when": "mcs_nations:prismarine"
       }
