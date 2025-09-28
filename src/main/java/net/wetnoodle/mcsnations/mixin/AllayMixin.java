@@ -5,7 +5,9 @@ import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.Tag;
 import net.minecraft.world.entity.animal.allay.Allay;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.component.CustomData;
+import net.minecraft.world.item.component.CustomModelData;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -16,11 +18,12 @@ import java.util.Objects;
 public class AllayMixin {
     @ModifyReturnValue(method = "allayConsidersItemEqual", at = @At("RETURN"))
     private boolean mcsNations$hasNonMatchingItem(boolean original, ItemStack itemStack, ItemStack itemStack2) {
-        return original && !hasNonMatchingTCCItem(itemStack, itemStack2);
+        return original && hasMatchingTCCItem(itemStack, itemStack2) && hasMatchingPufferItem(itemStack, itemStack2);
     }
 
+    // The Creeper's Code
     @Unique
-    private boolean hasNonMatchingTCCItem(ItemStack itemStack, ItemStack itemStack2) {
+    private boolean hasMatchingTCCItem(ItemStack itemStack, ItemStack itemStack2) {
         Tag tccTag;
         Tag tccTag2;
 
@@ -38,6 +41,17 @@ public class AllayMixin {
             tccTag2 = null;
         }
 
-        return !Objects.equals(tccTag, tccTag2);
+        return Objects.equals(tccTag, tccTag2);
+    }
+
+    // MCS Puffer Praise Pack
+    @Unique
+    boolean hasMatchingPufferItem(ItemStack itemStack, ItemStack itemStack2) {
+        // The datapack only uses pufferfish. If it's not a pufferfish, then it can't differ in the data.
+        if (!itemStack.is(Items.PUFFERFISH) || !itemStack2.is(Items.PUFFERFISH)) return true;
+
+        CustomModelData customModelData = itemStack.get(DataComponents.CUSTOM_MODEL_DATA);
+        CustomModelData customModelData2 = itemStack2.get(DataComponents.CUSTOM_MODEL_DATA);
+        return Objects.equals(customModelData, customModelData2);
     }
 }

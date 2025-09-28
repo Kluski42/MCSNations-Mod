@@ -1,0 +1,467 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "variant_christmass_puffer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/christmass_puffer"
+        }
+      },
+      {
+        "when": "variant_creepuffer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/creepuffer"
+        }
+      },
+      {
+        "when": "variant_puffer_allah",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_allah"
+        }
+      },
+      {
+        "when": "variant_puffer_boomer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_boomer"
+        }
+      },
+      {
+        "when": "variant_puffer_bottle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_bottle"
+        }
+      },
+      {
+        "when": "variant_puffer_bucket",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_bucket"
+        }
+      },
+      {
+        "when": "variant_puffer_capitalism",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_capitalism"
+        }
+      },
+      {
+        "when": "variant_puffer_cart",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_cart"
+        }
+      },
+      {
+        "when": "variant_puffer_celebrate",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_celebrate"
+        }
+      },
+      {
+        "when": "variant_puffer_chad",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_chad"
+        }
+      },
+      {
+        "when": "variant_puffer_clown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_clown"
+        }
+      },
+      {
+        "when": "variant_puffer_clueless",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_clueless"
+        }
+      },
+      {
+        "when": "variant_puffer_communism",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_communism"
+        }
+      },
+      {
+        "when": "variant_puffer_crying",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_crying"
+        }
+      },
+      {
+        "when": "variant_puffer_dab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_dab"
+        }
+      },
+      {
+        "when": "variant_puffer_deplizz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_deplizz"
+        }
+      },
+      {
+        "when": "variant_puffer_despair",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_despair"
+        }
+      },
+      {
+        "when": "variant_puffer_distressed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_distressed"
+        }
+      },
+      {
+        "when": "variant_puffer_eye",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_eye"
+        }
+      },
+      {
+        "when": "variant_puffer_facepalm",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_facepalm"
+        }
+      },
+      {
+        "when": "variant_puffer_face",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_face"
+        }
+      },
+      {
+        "when": "variant_puffer_false",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_false"
+        }
+      },
+      {
+        "when": "variant_puffer_flushed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_flushed"
+        }
+      },
+      {
+        "when": "variant_puffer_french",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_french"
+        }
+      },
+      {
+        "when": "variant_puffer_gentleman",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_gentleman"
+        }
+      },
+      {
+        "when": "variant_puffer_gun",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_gun"
+        }
+      },
+      {
+        "when": "variant_puffer_idea",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_idea"
+        }
+      },
+      {
+        "when": "variant_puffer_idiot",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_idiot"
+        }
+      },
+      {
+        "when": "variant_puffer_kekw",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_kekw"
+        }
+      },
+      {
+        "when": "variant_puffer_laughing",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_laughing"
+        }
+      },
+      {
+        "when": "variant_puffer_logic",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_logic"
+        }
+      },
+      {
+        "when": "variant_puffer_love",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_love"
+        }
+      },
+      {
+        "when": "variant_puffer_l",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_l"
+        }
+      },
+      {
+        "when": "variant_puffer_monocle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_monocle"
+        }
+      },
+      {
+        "when": "variant_puffer_ok",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_ok"
+        }
+      },
+      {
+        "when": "variant_puffer_pensive",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_pensive"
+        }
+      },
+      {
+        "when": "variant_puffer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer"
+        }
+      },
+      {
+        "when": "variant_puffer_pog",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_pog"
+        }
+      },
+      {
+        "when": "variant_puffer_popcorn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_popcorn"
+        }
+      },
+      {
+        "when": "variant_puffer_raging",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_raging"
+        }
+      },
+      {
+        "when": "variant_puffer_rainbow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_rainbow"
+        }
+      },
+      {
+        "when": "variant_puffer_sax",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_sax"
+        }
+      },
+      {
+        "when": "variant_puffer_shocked",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_shocked"
+        }
+      },
+      {
+        "when": "variant_puffer_shy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_shy"
+        }
+      },
+      {
+        "when": "variant_puffer_sleep",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_sleep"
+        }
+      },
+      {
+        "when": "variant_puffer_sweat_smile",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_sweat_smile"
+        }
+      },
+      {
+        "when": "variant_puffer_think",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_think"
+        }
+      },
+      {
+        "when": "variant_puffer_thonk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_thonk"
+        }
+      },
+      {
+        "when": "variant_puffer_throw_brick",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_throw_brick"
+        }
+      },
+      {
+        "when": "variant_puffer_thumb",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_thumb"
+        }
+      },
+      {
+        "when": "variant_puffer_thumbs_down",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_thumbs_down"
+        }
+      },
+      {
+        "when": "variant_puffer_thumbs_up",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_thumbs_up"
+        }
+      },
+      {
+        "when": "variant_puffer_troll",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_troll"
+        }
+      },
+      {
+        "when": "variant_puffer_true",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_true"
+        }
+      },
+      {
+        "when": "variant_puffer_uwu",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_uwu"
+        }
+      },
+      {
+        "when": "variant_puffer_wheeze",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_wheeze"
+        }
+      },
+      {
+        "when": "variant_puffer_winter",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_winter"
+        }
+      },
+      {
+        "when": "variant_puffer_witch",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_witch"
+        }
+      },
+      {
+        "when": "variant_puffer_withered",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_withered"
+        }
+      },
+      {
+        "when": "variant_puffer_x",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffer_x"
+        }
+      },
+      {
+        "when": "variant_puffingot_copper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffingot_copper"
+        }
+      },
+      {
+        "when": "variant_puffingot_gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffingot_gold"
+        }
+      },
+      {
+        "when": "variant_puffingot_iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffingot_iron"
+        }
+      },
+      {
+        "when": "variant_puffingot_netherite",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/puffingot_netherite"
+        }
+      },
+      {
+        "when": "variant_stardewpuffer_sup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mcs_ppp:puffer/stardewpuffer_sup"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pufferfish"
+    }
+  }
+}

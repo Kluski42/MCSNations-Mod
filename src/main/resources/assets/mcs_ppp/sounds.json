@@ -1,0 +1,11 @@
+{
+  "entity.painting.objection": {
+    "sounds": [
+      {
+        "name": "mcs_ppp:painting/objection",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  }
+}
