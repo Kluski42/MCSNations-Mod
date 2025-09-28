@@ -10,7 +10,7 @@ import net.wetnoodle.mcsnations.MCSNConstants;
 
 public class MCSNDefaultItemComponents {
     public static void init() {
-        MCSNConstants.logWithModId("Initializing item properties for ");
+        MCSNConstants.logWithModId("Registering item properties for ");
         ResourceLocation latePhase = ResourceLocation.fromNamespaceAndPath(MCSNConstants.MOD_ID, "late");
         DefaultItemComponentEvents.MODIFY.addPhaseOrdering(Event.DEFAULT_PHASE, latePhase);
 
