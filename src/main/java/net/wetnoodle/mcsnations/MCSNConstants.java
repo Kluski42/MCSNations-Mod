@@ -2,12 +2,11 @@ package net.wetnoodle.mcsnations;
 
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.resources.ResourceLocation;
-import net.wetnoodle.mcsnations.register.MCSNTrimMaterials;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class NationsConstants {
+public class MCSNConstants {
     public static final String MOD_ID = "mcs_nations";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     public static boolean UNSTABLE_LOGGING = FabricLoader.getInstance().isDevelopmentEnvironment();
