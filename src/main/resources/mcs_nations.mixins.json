@@ -3,7 +3,8 @@
   "package": "net.wetnoodle.mcsnations.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "FireworkRocketItemMixin"
+    "FireworkRocketItemMixin",
+    "HappyGhastMixin"
   ],
   "injectors": {
     "defaultRequire": 1
