@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.At;
 @Mixin(FireworkRocketItem.class)
 public class FireworkRocketItemMixin {
     @ModifyExpressionValue(method = "use", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/player/Player;isFallFlying()Z"))
-    private boolean mcsNations$isInEnd(boolean original, Level level, Player player) {
-        return original && ((level.dimension() == Level.END) || player.isCreative());
+    private boolean mcsNations$fireworksEnabled(boolean original, Level level, Player player) {
+        return original && ((level.dimension() == Level.END) || (level.dimension() == Level.NETHER) || player.isCreative());
     }
 }
