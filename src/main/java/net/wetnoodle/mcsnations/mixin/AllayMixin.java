@@ -32,13 +32,25 @@ public class AllayMixin {
 
         if (customData != null) {
             tccTag = customData.copyTag().get("tcc");
+            if (tccTag != null && tccTag.asString().isPresent()) {
+                System.out.printf("Item 1: %s\n", tccTag.asString());
+            } else {
+                System.out.println("Item 1 has custom data but missing TCC Tag!");
+            }
         } else {
             tccTag = null;
+            System.out.println("Item 1 has no custom data.");
         }
         if (customData2 != null) {
             tccTag2 = customData2.copyTag().get("tcc");
+            if (tccTag2 != null && tccTag2.asString().isPresent()) {
+                System.out.printf("Item 2: %s\n", tccTag2.asString());
+            } else {
+                System.out.println("Item 2 has custom data but missing TCC Tag!");
+            }
         } else {
             tccTag2 = null;
+            System.out.println("Item 2 has no custom data.");
         }
 
         return Objects.equals(tccTag, tccTag2);
