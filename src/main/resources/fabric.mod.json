@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "mcs-nations",
+  "id": "mcs_nations",
   "version": "${version}",
   "name": "MCS Nations",
   "description": "A serverside Fabric mod for MCS Nations.",
@@ -29,9 +29,9 @@
     ]
   },
   "mixins": [
-    "mcs_nations.mixins.json",
+    "mcsnations.mixins.json",
     {
-      "config": "mcs-nations.client.mixins.json",
+      "config": "mcsnations.client.mixins.json",
       "environment": "client"
     }
   ],
