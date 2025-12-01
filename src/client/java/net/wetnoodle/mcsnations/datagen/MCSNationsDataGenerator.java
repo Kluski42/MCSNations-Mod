@@ -12,6 +12,7 @@ public class MCSNationsDataGenerator implements DataGeneratorEntrypoint {
         FabricDataGenerator.Pack pack = generator.createPack();
         pack.addProvider(MCSNTrimMaterialProvider::new);
         pack.addProvider(MCSNItemTagProvider::new);
+        pack.addProvider(MCSNRecipeProvider::new);
     }
 
     @Override
