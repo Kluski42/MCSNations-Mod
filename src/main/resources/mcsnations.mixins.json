@@ -6,7 +6,8 @@
     "AllayMixin",
     "FireworkRocketItemMixin",
     "HappyGhastMixin",
-    "TransportItemsBetweenContainersMixin"
+    "TransportItemsBetweenContainersMixin",
+    "ZombieMixin"
   ],
   "injectors": {
     "defaultRequire": 1
