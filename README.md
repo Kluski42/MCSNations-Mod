@@ -5,3 +5,5 @@ Features:
 - Happy ghasts get tempted by snow blocks, snow layers, and powdered snow, alongside the usual items.
 - Allays and copper golems recognize The Creeper's Code and MCS Puffer Praise Pack items as unique from vanilla items.
 - Guarantees villagers zombifies.
+- Makes void not render on maps.
+- Allows creakings to spawn in all dimensions.

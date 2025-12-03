@@ -6,6 +6,7 @@
     "AllayMixin",
     "FireworkRocketItemMixin",
     "HappyGhastMixin",
+    "MapItemMixin",
     "TransportItemsBetweenContainersMixin",
     "ZombieMixin"
   ],
